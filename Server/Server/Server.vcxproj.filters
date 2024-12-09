@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Connection">
+      <UniqueIdentifier>{12b64a50-f2e2-4bd2-ae7f-4c0dfcccb036}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Crypto">
+      <UniqueIdentifier>{13a36518-0205-4a10-b6b7-74f9f715e032}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Database">
+      <UniqueIdentifier>{5fcd0ddf-8fdd-409e-91cc-7433d61fb2ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Database\Object">
+      <UniqueIdentifier>{1951433d-50fc-4644-8945-cbd05d671a1a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Connection\Server.cpp">
+      <Filter>소스 파일\Connection</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Database\Object\DeliveryMan.cpp">
+      <Filter>소스 파일\Database\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Database\Object\User.cpp">
+      <Filter>소스 파일\Database\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Database\Object\Package.cpp">
+      <Filter>소스 파일\Database\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Crypto\cbd.c">
+      <Filter>소스 파일\Crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Crypto\fips202.c">
+      <Filter>소스 파일\Crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Crypto\indcpa.c">
+      <Filter>소스 파일\Crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Crypto\kem.c">
+      <Filter>소스 파일\Crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Crypto\ntt.c">
+      <Filter>소스 파일\Crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Crypto\poly.c">
+      <Filter>소스 파일\Crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Crypto\polyvec.c">
+      <Filter>소스 파일\Crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Crypto\randombytes.c">
+      <Filter>소스 파일\Crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Crypto\reduce.c">
+      <Filter>소스 파일\Crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Crypto\symmetric-shake.c">
+      <Filter>소스 파일\Crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Crypto\verify.c">
+      <Filter>소스 파일\Crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Database\Object\CryptoInterface.h">
+      <Filter>소스 파일\Database\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Database\Object\CryptoInterface.cpp">
+      <Filter>소스 파일\Database\Object</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\Connection\Server.h">
+      <Filter>소스 파일\Connection</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Database\Object\DeliveryMan.h">
+      <Filter>소스 파일\Database\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Database\Object\User.h">
+      <Filter>소스 파일\Database\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Database\Object\Package.h">
+      <Filter>소스 파일\Database\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Crypto\api.h">
+      <Filter>소스 파일\Crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Crypto\cbd.h">
+      <Filter>소스 파일\Crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Crypto\fips202.h">
+      <Filter>소스 파일\Crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Crypto\indcpa.h">
+      <Filter>소스 파일\Crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Crypto\kem.h">
+      <Filter>소스 파일\Crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Crypto\ntt.h">
+      <Filter>소스 파일\Crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Crypto\params.h">
+      <Filter>소스 파일\Crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Crypto\poly.h">
+      <Filter>소스 파일\Crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Crypto\polyvec.h">
+      <Filter>소스 파일\Crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Crypto\randombytes.h">
+      <Filter>소스 파일\Crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Crypto\reduce.h">
+      <Filter>소스 파일\Crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Crypto\symmetric.h">
+      <Filter>소스 파일\Crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Crypto\verify.h">
+      <Filter>소스 파일\Crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Params.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="source\Crypto\Makefile">
+      <Filter>소스 파일\Crypto</Filter>
+    </None>
+  </ItemGroup>
+</Project>
