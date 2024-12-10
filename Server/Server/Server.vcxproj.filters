@@ -25,6 +25,9 @@
     <Filter Include="소스 파일\Database\Object">
       <UniqueIdentifier>{1951433d-50fc-4644-8945-cbd05d671a1a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\QRGenerator">
+      <UniqueIdentifier>{b5af96bb-b494-4dfc-ba3b-1c47ff674fbd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="source\main.cpp">
@@ -81,6 +84,9 @@
     <ClCompile Include="source\Database\Object\CryptoInterface.cpp">
       <Filter>소스 파일\Database\Object</Filter>
     </ClCompile>
+    <ClCompile Include="source\QRGenerator\QRGenerator.cpp">
+      <Filter>소스 파일\QRGenerator</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="source\Connection\Server.h">
@@ -136,6 +142,9 @@
     </ClInclude>
     <ClInclude Include="source\Params.h">
       <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="source\QRGenerator\QRGenerator.h">
+      <Filter>소스 파일\QRGenerator</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
