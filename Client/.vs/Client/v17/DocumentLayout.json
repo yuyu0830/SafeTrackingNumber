@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\yuyu0\\iCloudDrive\\Documents\\GitHub\\SafeTrackingNumber\\Client\\",
+  "WorkspaceRootPath": "D:\\GitHub\\SafeTrackingNumber\\Client\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AC778860-4DFF-40A1-8927-F9A07748F9E9}|Client.vcxproj|C:\\Users\\yuyu0\\iCloudDrive\\Documents\\GitHub\\SafeTrackingNumber\\Client\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{AC778860-4DFF-40A1-8927-F9A07748F9E9}|Client.vcxproj|D:\\GitHub\\SafeTrackingNumber\\Client\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{AC778860-4DFF-40A1-8927-F9A07748F9E9}|Client.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -14,21 +14,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:43:0:{5d51d786-731c-4256-bf95-6a6dd495c7d7}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\yuyu0\\iCloudDrive\\Documents\\GitHub\\SafeTrackingNumber\\Client\\main.cpp",
+              "DocumentMoniker": "D:\\GitHub\\SafeTrackingNumber\\Client\\main.cpp",
               "RelativeDocumentMoniker": "main.cpp",
-              "ToolTip": "C:\\Users\\yuyu0\\iCloudDrive\\Documents\\GitHub\\SafeTrackingNumber\\Client\\main.cpp",
+              "ToolTip": "D:\\GitHub\\SafeTrackingNumber\\Client\\main.cpp",
               "RelativeToolTip": "main.cpp",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAABkAAAAoAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABsAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-06T06:31:43.231Z",
               "EditorCaption": ""
