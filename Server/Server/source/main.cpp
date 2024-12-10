@@ -20,6 +20,8 @@ int SocketSetting();
 void Terminate();
 
 int main() {
+	
+
 	if (SocketSetting()) {
 		cout << "Can't Create Socket.." << endl;
 		Terminate();
@@ -30,7 +32,7 @@ int main() {
 
 	cout << "Ready.." << endl;
 
-	// While loop: Å¬¶óÀÌ¾ğÆ®ÀÇ ¸Ş¼¼Áö¸¦ ¹Ş¾Æ¼­ Ãâ·Â ÈÄ Å¬¶óÀÌ¾ğÆ®¿¡ ´Ù½Ã º¸³À´Ï´Ù.
+	// While loop: Å¬ï¿½ï¿½ï¿½Ì¾ï¿½Æ®ï¿½ï¿½ ï¿½Ş¼ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ş¾Æ¼ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ Å¬ï¿½ï¿½ï¿½Ì¾ï¿½Æ®ï¿½ï¿½ ï¿½Ù½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½.
 	char msg[PACKET_SIZE] = { 0 };
 
 	while (true) {
@@ -90,7 +92,7 @@ int SocketSetting() {
 	int clientSize = sizeof(ClientInfo);
 	ZeroMemory(&ClientInfo, clientSize);
 
-	// connection queueÀÇ °¡Àå ¾Õ¿¡ ÀÖ´Â Å¬¶óÀÌ¾ğÆ® ¿äÃ»À» acceptÇÏ°í, client ¼ÒÄÏÀ» ¹İÈ¯ÇÕ´Ï´Ù.
+	// connection queueï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Õ¿ï¿½ ï¿½Ö´ï¿½ Å¬ï¿½ï¿½ï¿½Ì¾ï¿½Æ® ï¿½ï¿½Ã»ï¿½ï¿½ acceptï¿½Ï°ï¿½, client ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È¯ï¿½Õ´Ï´ï¿½.
 	clientSocket = accept(serverSocket, (SOCKADDR*) &ClientInfo, &clientSize);
 
 	if (clientSocket == INVALID_SOCKET) {
@@ -103,8 +105,8 @@ int SocketSetting() {
 	ZeroMemory(host, NI_MAXHOST);
 	ZeroMemory(service, NI_MAXHOST);
 
-	// clientSockInfo¿¡ ÀúÀåµÈ IP ÁÖ¼Ò¸¦ ÅëÇØ µµ¸ŞÀÎ Á¤º¸¸¦ ¾ò½À´Ï´Ù. host ÀÌ¸§Àº host¿¡, Æ÷Æ® ¹øÈ£´Â service¿¡ ÀúÀåµË´Ï´Ù.
-	// getnameinfo()´Â ¼º°ø ½Ã 0À» ¹İÈ¯ÇÕ´Ï´Ù. ½ÇÆĞ ½Ã 0ÀÌ ¾Æ´Ñ °ªÀ» ¹İÈ¯ÇÕ´Ï´Ù.
+	// clientSockInfoï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ IP ï¿½Ö¼Ò¸ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ï´ï¿½. host ï¿½Ì¸ï¿½ï¿½ï¿½ hostï¿½ï¿½, ï¿½ï¿½Æ® ï¿½ï¿½È£ï¿½ï¿½ serviceï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ë´Ï´ï¿½.
+	// getnameinfo()ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ 0ï¿½ï¿½ ï¿½ï¿½È¯ï¿½Õ´Ï´ï¿½. ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ 0ï¿½ï¿½ ï¿½Æ´ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È¯ï¿½Õ´Ï´ï¿½.
 	if (!getnameinfo((sockaddr*)&ClientInfo, sizeof(ClientInfo), host, NI_MAXHOST, service, NI_MAXSERV, 0)) {
 		cout << host << " connected ON port " << service << endl;
 	}
