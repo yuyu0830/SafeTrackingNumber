@@ -1,3 +1,31 @@
-﻿  main.cpp
-C:\Users\yuyu0\iCloudDrive\Documents\GitHub\SafeTrackingNumber\Server\Server\source\main.cpp(44,39): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  Server.vcxproj -> C:\Users\yuyu0\iCloudDrive\Documents\GitHub\SafeTrackingNumber\Server\x64\Debug\Server.exe
+﻿  cbd.c
+  fips202.c
+D:\Github\SafeTrackingNumber\Server\Server\source\Crypto\fips202.c(44,14): warning C4244: '=': 'uint64_t'에서 'uint8_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Github\SafeTrackingNumber\Server\Server\source\Crypto\fips202.c(440,23): warning C4244: '=': 'uint64_t'에서 'uint8_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  indcpa.c
+  kem.c
+  ntt.c
+  poly.c
+  polyvec.c
+  randombytes.c
+D:\Github\SafeTrackingNumber\Server\Server\source\Crypto\randombytes.c(33,29): warning C4267: '함수': 'size_t'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  reduce.c
+  symmetric-shake.c
+  verify.c
+  코드를 생성하고 있습니다...
+  Database.cpp
+  CryptoInterface.cpp
+  CryptoInterface.h
+  DeliveryMan.cpp
+  Package.cpp
+  User.cpp
+  main.cpp
+D:\Github\SafeTrackingNumber\Server\Server\source\main.cpp(44,12): warning C4244: '인수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Github\SafeTrackingNumber\Server\Server\source\main.cpp(73,31): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Github\SafeTrackingNumber\Server\Server\source\main.cpp(401,38): warning C4101: 'e' :참조되지 않은 지역 변수입니다.
+D:\Github\SafeTrackingNumber\Server\Server\source\main.cpp(404,34): warning C4101: 'e' :참조되지 않은 지역 변수입니다.
+  qrcodegen.cpp
+  QRGenerator.cpp
+  코드를 생성하고 있습니다...
+x64\Debug\CryptoInterface.obj : warning LNK4042: 개체가 두 번 이상 지정되었습니다. 나머지는 무시됩니다.
+  Server.vcxproj -> D:\Github\SafeTrackingNumber\Server\x64\Debug\Server.exe

@@ -19,7 +19,6 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="source\Connection\Server.cpp" />
     <ClCompile Include="source\Crypto\cbd.c" />
     <ClCompile Include="source\Crypto\fips202.c" />
     <ClCompile Include="source\Crypto\indcpa.c" />
@@ -31,16 +30,17 @@
     <ClCompile Include="source\Crypto\reduce.c" />
     <ClCompile Include="source\Crypto\symmetric-shake.c" />
     <ClCompile Include="source\Crypto\verify.c" />
+    <ClCompile Include="source\Database\Database.cpp" />
     <ClCompile Include="source\Database\Object\CryptoInterface.cpp" />
     <ClCompile Include="source\Database\Object\CryptoInterface.h" />
     <ClCompile Include="source\Database\Object\DeliveryMan.cpp" />
     <ClCompile Include="source\Database\Object\Package.cpp" />
     <ClCompile Include="source\Database\Object\User.cpp" />
     <ClCompile Include="source\main.cpp" />
+    <ClCompile Include="source\QRGenerator\qrcodegen.cpp" />
     <ClCompile Include="source\QRGenerator\QRGenerator.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="source\Connection\Server.h" />
     <ClInclude Include="source\Crypto\api.h" />
     <ClInclude Include="source\Crypto\cbd.h" />
     <ClInclude Include="source\Crypto\fips202.h" />
@@ -54,13 +54,16 @@
     <ClInclude Include="source\Crypto\reduce.h" />
     <ClInclude Include="source\Crypto\symmetric.h" />
     <ClInclude Include="source\Crypto\verify.h" />
+    <ClInclude Include="source\Database\Database.h" />
     <ClInclude Include="source\Database\Object\DeliveryMan.h" />
     <ClInclude Include="source\Database\Object\Package.h" />
     <ClInclude Include="source\Database\Object\User.h" />
     <ClInclude Include="source\Params.h" />
+    <ClInclude Include="source\QRGenerator\qrcodegen.hpp" />
     <ClInclude Include="source\QRGenerator\QRGenerator.h" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="cpp.hint" />
     <None Include="source\Crypto\Makefile" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
@@ -149,7 +152,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(ProjectDir)\source</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)source</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>

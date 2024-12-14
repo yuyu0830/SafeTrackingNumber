@@ -13,10 +13,92 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\Crypto">
+      <UniqueIdentifier>{1a7e5b4f-4e94-4140-858a-4f1b67d844be}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Crypto\cbd.c">
+      <Filter>소스 파일\Crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto\fips202.c">
+      <Filter>소스 파일\Crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto\indcpa.c">
+      <Filter>소스 파일\Crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto\kem.c">
+      <Filter>소스 파일\Crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto\ntt.c">
+      <Filter>소스 파일\Crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto\poly.c">
+      <Filter>소스 파일\Crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto\polyvec.c">
+      <Filter>소스 파일\Crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto\randombytes.c">
+      <Filter>소스 파일\Crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto\reduce.c">
+      <Filter>소스 파일\Crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto\symmetric-shake.c">
+      <Filter>소스 파일\Crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto\verify.c">
+      <Filter>소스 파일\Crypto</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Crypto\api.h">
+      <Filter>소스 파일\Crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto\cbd.h">
+      <Filter>소스 파일\Crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto\fips202.h">
+      <Filter>소스 파일\Crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto\indcpa.h">
+      <Filter>소스 파일\Crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto\kem.h">
+      <Filter>소스 파일\Crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto\ntt.h">
+      <Filter>소스 파일\Crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto\params.h">
+      <Filter>소스 파일\Crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto\poly.h">
+      <Filter>소스 파일\Crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto\polyvec.h">
+      <Filter>소스 파일\Crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto\randombytes.h">
+      <Filter>소스 파일\Crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto\reduce.h">
+      <Filter>소스 파일\Crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto\symmetric.h">
+      <Filter>소스 파일\Crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto\verify.h">
+      <Filter>소스 파일\Crypto</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Crypto\Makefile">
+      <Filter>소스 파일\Crypto</Filter>
+    </None>
   </ItemGroup>
 </Project>

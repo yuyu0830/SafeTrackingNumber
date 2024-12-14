@@ -127,7 +127,36 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Crypto\cbd.c" />
+    <ClCompile Include="Crypto\fips202.c" />
+    <ClCompile Include="Crypto\indcpa.c" />
+    <ClCompile Include="Crypto\kem.c" />
+    <ClCompile Include="Crypto\ntt.c" />
+    <ClCompile Include="Crypto\poly.c" />
+    <ClCompile Include="Crypto\polyvec.c" />
+    <ClCompile Include="Crypto\randombytes.c" />
+    <ClCompile Include="Crypto\reduce.c" />
+    <ClCompile Include="Crypto\symmetric-shake.c" />
+    <ClCompile Include="Crypto\verify.c" />
     <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Crypto\api.h" />
+    <ClInclude Include="Crypto\cbd.h" />
+    <ClInclude Include="Crypto\fips202.h" />
+    <ClInclude Include="Crypto\indcpa.h" />
+    <ClInclude Include="Crypto\kem.h" />
+    <ClInclude Include="Crypto\ntt.h" />
+    <ClInclude Include="Crypto\params.h" />
+    <ClInclude Include="Crypto\poly.h" />
+    <ClInclude Include="Crypto\polyvec.h" />
+    <ClInclude Include="Crypto\randombytes.h" />
+    <ClInclude Include="Crypto\reduce.h" />
+    <ClInclude Include="Crypto\symmetric.h" />
+    <ClInclude Include="Crypto\verify.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Crypto\Makefile" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

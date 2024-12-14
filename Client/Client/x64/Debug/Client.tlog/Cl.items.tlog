@@ -1,1 +1,12 @@
-D:\GitHub\SafeTrackingNumber\Client\main.cpp;D:\GitHub\SafeTrackingNumber\Client\Client\x64\Debug\main.obj
+D:\Github\SafeTrackingNumber\Client\Crypto\cbd.c;D:\Github\SafeTrackingNumber\Client\Client\x64\Debug\cbd.obj
+D:\Github\SafeTrackingNumber\Client\Crypto\fips202.c;D:\Github\SafeTrackingNumber\Client\Client\x64\Debug\fips202.obj
+D:\Github\SafeTrackingNumber\Client\Crypto\indcpa.c;D:\Github\SafeTrackingNumber\Client\Client\x64\Debug\indcpa.obj
+D:\Github\SafeTrackingNumber\Client\Crypto\kem.c;D:\Github\SafeTrackingNumber\Client\Client\x64\Debug\kem.obj
+D:\Github\SafeTrackingNumber\Client\Crypto\ntt.c;D:\Github\SafeTrackingNumber\Client\Client\x64\Debug\ntt.obj
+D:\Github\SafeTrackingNumber\Client\Crypto\poly.c;D:\Github\SafeTrackingNumber\Client\Client\x64\Debug\poly.obj
+D:\Github\SafeTrackingNumber\Client\Crypto\polyvec.c;D:\Github\SafeTrackingNumber\Client\Client\x64\Debug\polyvec.obj
+D:\Github\SafeTrackingNumber\Client\Crypto\randombytes.c;D:\Github\SafeTrackingNumber\Client\Client\x64\Debug\randombytes.obj
+D:\Github\SafeTrackingNumber\Client\Crypto\reduce.c;D:\Github\SafeTrackingNumber\Client\Client\x64\Debug\reduce.obj
+D:\Github\SafeTrackingNumber\Client\Crypto\symmetric-shake.c;D:\Github\SafeTrackingNumber\Client\Client\x64\Debug\symmetric-shake.obj
+D:\Github\SafeTrackingNumber\Client\Crypto\verify.c;D:\Github\SafeTrackingNumber\Client\Client\x64\Debug\verify.obj
+D:\Github\SafeTrackingNumber\Client\main.cpp;D:\Github\SafeTrackingNumber\Client\Client\x64\Debug\main.obj

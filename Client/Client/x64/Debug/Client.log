@@ -1,3 +1,20 @@
 ﻿  main.cpp
-D:\GitHub\SafeTrackingNumber\Client\main.cpp(37,30): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  Client.vcxproj -> D:\GitHub\SafeTrackingNumber\Client\x64\Debug\Client.exe
+D:\Github\SafeTrackingNumber\Client\main.cpp(19,1): warning C4005: 'KYBER_CIPHERTEXTBYTES': 매크로 재정의
+  D:\Github\SafeTrackingNumber\Client\Crypto\params.h(57,1):
+  'KYBER_CIPHERTEXTBYTES'의 이전 정의를 참조하십시오.
+  
+D:\Github\SafeTrackingNumber\Client\main.cpp(115,31): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Github\SafeTrackingNumber\Client\main.cpp(120,31): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Github\SafeTrackingNumber\Client\main.cpp(125,31): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Github\SafeTrackingNumber\Client\main.cpp(130,31): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Github\SafeTrackingNumber\Client\main.cpp(141,31): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Github\SafeTrackingNumber\Client\main.cpp(146,31): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Github\SafeTrackingNumber\Client\main.cpp(151,31): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Github\SafeTrackingNumber\Client\main.cpp(156,31): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Github\SafeTrackingNumber\Client\main.cpp(167,31): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Github\SafeTrackingNumber\Client\main.cpp(172,31): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Github\SafeTrackingNumber\Client\main.cpp(199,31): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Github\SafeTrackingNumber\Client\main.cpp(204,31): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Github\SafeTrackingNumber\Client\main.cpp(210,31): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Github\SafeTrackingNumber\Client\main.cpp(215,31): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Client.vcxproj -> D:\Github\SafeTrackingNumber\Client\x64\Debug\Client.exe

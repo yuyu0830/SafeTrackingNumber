@@ -33,9 +33,6 @@
     <ClCompile Include="source\main.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="source\Connection\Server.cpp">
-      <Filter>소스 파일\Connection</Filter>
-    </ClCompile>
     <ClCompile Include="source\Database\Object\DeliveryMan.cpp">
       <Filter>소스 파일\Database\Object</Filter>
     </ClCompile>
@@ -87,11 +84,14 @@
     <ClCompile Include="source\QRGenerator\QRGenerator.cpp">
       <Filter>소스 파일\QRGenerator</Filter>
     </ClCompile>
+    <ClCompile Include="source\QRGenerator\qrcodegen.cpp">
+      <Filter>소스 파일\QRGenerator</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Database\Database.cpp">
+      <Filter>소스 파일\Database</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="source\Connection\Server.h">
-      <Filter>소스 파일\Connection</Filter>
-    </ClInclude>
     <ClInclude Include="source\Database\Object\DeliveryMan.h">
       <Filter>소스 파일\Database\Object</Filter>
     </ClInclude>
@@ -146,10 +146,17 @@
     <ClInclude Include="source\QRGenerator\QRGenerator.h">
       <Filter>소스 파일\QRGenerator</Filter>
     </ClInclude>
+    <ClInclude Include="source\QRGenerator\qrcodegen.hpp">
+      <Filter>소스 파일\QRGenerator</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Database\Database.h">
+      <Filter>소스 파일\Database</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="source\Crypto\Makefile">
       <Filter>소스 파일\Crypto</Filter>
     </None>
+    <None Include="cpp.hint" />
   </ItemGroup>
 </Project>

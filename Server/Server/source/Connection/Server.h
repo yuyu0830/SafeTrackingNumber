@@ -6,6 +6,7 @@
 #include <winsock2.h>
 #include <WS2tcpip.h>
 #include <thread>
+#include <vector>
 
 #include "Params.h"
 
@@ -13,25 +14,21 @@
 
 using namespace std;
 
-class Server {
-public:
-	Server();
-
-	int RunServer();
-	void CloseServer();
-
-private:
-	void Connect();
-
-	void ReceiveProcess();
-	int SocketSetting();
-	void Terminate();
-
-
-public:
-
-
-private:
-	SOCKET clientSocket, serverSocket;
-
+struct ClientInfo { // 클라이언트 정보 필드
+	SOCKET socket;
+	sockaddr_in clientAddress;
 };
+
+vector<HANDLE> clientThreads;
+vector<ClientInfo> clientPool;
+
+SOCKET serverSocket;
+
+int RunServer();
+void CloseServer();
+
+void ClientAccept();
+
+unsigned int __stdcall HandleClient(void* data);
+
+void Terminate();

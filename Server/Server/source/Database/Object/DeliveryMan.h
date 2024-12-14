@@ -1,28 +1,35 @@
 #pragma once
 
 #include "CryptoInterface.h"
+#include "Params.h"
 
-class DeliveryMan : public CryptoInterface
+class DeliveryMan
 {
 public:
-	DeliveryMan();
+	DeliveryMan(const char _Name[MAX_NAME_LEN], const char _Phone[MAX_PHONE_LEN], const char _Address[MAX_ADDR_LEN], uint8_t* SecretKey);
 
-	static int Init();
-	static int GetUniqueNumber();
+	uint8_t* GetPublicKey() { return PublicKey; }
+
+	char* GetName() { return Name; }
+	char* GetPhone() { return Phone; }
+	char* GetAddress() { return Address; }
+
+	static int GetUniqueNumber() { return UniqueNumber++; }
+
+private:
+	
+
+
+public:
+
+
 
 private:
 	static int UniqueNumber;
 
+	char Name[MAX_NAME_LEN];
+	char Phone[MAX_PHONE_LEN];
+	char Address[MAX_ADDR_LEN];
 
-public:
-
-
-
-private:
-	char Name[10];
-	char Phone[15];
-	char Address[255];
-
-
-
+	uint8_t PublicKey[PUBLIC_KEY_SIZE];
 };
